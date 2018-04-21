@@ -2412,12 +2412,20 @@
 
 /* Image */
 
+
 	.image {
 		border: 0;
 		display: inline-block;
 		position: relative;
 	}
 
+	.redondo img{
+		width:150px;
+    height:150px;
+    border-radius:75px;
+    border:4px solid #666;
+		float: left;
+	}
 		.image img {
 			display: block;
 		}
